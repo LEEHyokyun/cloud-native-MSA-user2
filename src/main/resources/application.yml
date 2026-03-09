@@ -2,7 +2,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3309/orders #cloud-native-msa-user-mysql #Scaled out : 별도 설정
+    url: jdbc:mysql://127.0.0.1:3307/orders #cloud-native-msa-user-mysql #Scaled out : 별도 설정
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
