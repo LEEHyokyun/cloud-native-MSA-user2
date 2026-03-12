@@ -4,6 +4,7 @@ import com.msa.order.model.entity.Order;
 import com.msa.order.model.request.OrderCreateRequest;
 import com.msa.order.model.response.OrderResponse;
 import com.msa.order.repository.OrderRepository;
+import io.micrometer.observation.annotation.Observed;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
